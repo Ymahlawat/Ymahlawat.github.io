@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+#navbar{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+#navbar::before{
+    content: "";
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+}
+
+.logo{
+    margin: 7px 15px;
+}
+
+.logo img{ 
+    height: 60px;
+    width: 56px;
+    margin: 6px 14px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.2em ;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 580px;
+    padding: 0px 5%;
+}
+
+#home::before{
+    content: "";
+    background: url('bg3.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .8;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Maitree', serif;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Maitree', serif;
+}
+.h-primary{
+
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+
+
+  .btn{
+    background-color: transparent;
+    color: black;
+    border: 2px solid #2c8ba3;
+    font-size: 20px;
+    font-weight: 550;
+    margin: 25px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+
+  }
+  
+  .btn:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  #services{
+    margin: 34px; 
+    display: flex;
+  }
+
+  .h-primary-centre{
+      text-align: center;
+      font-size: 2.2rem;
+      font-family: 'Maitree', serif;
+  }
+
+  #services .box{
+    border:2px solid red;
+    text-align: center;
+    height: 250px;
+    background-color: rgb(236, 236, 236);
+    margin: 6px;
+    border-radius: 23px;
+    padding: 20px 30px;
+    
+
+  }
+
+  #services img{
+      height: 100px;
+      width: 180px;
+  }
+
+  #services .box p{
+    font-family: 'Maitree', serif;
+  }
+
+  #partner-Section{
+
+
+  }
+
+.partners{
+      display: flex;
+      text-align: center;
+  }
+.partner-item{
+    margin: 18px;
+    padding: 18px;
+}
+
+  .partners img{
+    height: 200px;
+    width: 200px;
+  }
+
+  #contact{
+position: relative;
+height: 500px;
+margin-top: 10px;
+
+
+  }
+
+  #contact h1{
+    padding-top: 30px;
+  }
+
+  #contact::before{
+    content: "";
+    background: url('bg2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .8;
+  }
+
+  #contact-box{
+    padding-top: 20px; 
+    text-align: left;
+      display: flex;
+      justify-content: center;
+  }
+
+  #contact-box input,#contact-box textarea{
+      width: 100%;
+      height: 16px;
+      padding: .5rem;
+      border-radius: 16px;
+  }
+
+  #contact-box label{
+      font-size: 1.4rem;
+      font-family: baloo bhai;
+      font-family: 'Patrick Hand', cursive;
+  }
+
+  .btn-submit{
+    background-color: transparent;
+    color: black;
+    border: 2px solid #2c8ba3;
+    font-size: 16px;
+    font-weight: 550;
+    margin: 16px 100px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+
+  }
+
+  .btn-submit:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+
+  footer{
+      text-align: center;
+      background-color: rgb(231, 227, 227);
+      height: 50px;
+      padding-top: 3%;
+  }
