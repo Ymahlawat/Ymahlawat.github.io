@@ -1,0 +1,101 @@
+
+
+#nabar{
+flex-direction: column;
+}
+
+#navbar ul li a{
+    padding: 0px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+
+#home{
+height: 460px;
+}
+
+#home::before{
+    height: 440px;
+}
+
+.h-primary{
+
+    font-size: 1.4rem;
+    padding: 12px;
+}
+
+#home p{
+    font-size: .8rem;
+    
+}
+
+.btn{
+  
+    font-size: 15px;
+    font-weight: 502;
+    margin: 15px 1px;
+    padding: 6px 17px;
+    border-radius: 9px;
+}
+
+  
+
+#services{
+    flex-direction: column;
+}
+#services .box{
+text-align: center;
+height: 100%;
+adding: 3px 16px;
+}
+
+#services img {
+    height: 61%;
+    width: 38%;
+}
+
+.h-primary-centre {
+    font-size: 1.6rem;
+}
+
+.partners{
+    flex-wrap: wrap;
+}
+
+.partner-item {
+    margin: 2px;
+    padding: 7px;
+}
+.partners img{
+height: 85px;
+width: 101px;
+}
+
+#contact-box {
+    padding-top: 8px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+#contact-box input,#contact-box textarea{
+    width: 80%;
+    height: 14px;
+    padding: .5rem;
+    border-radius: 16px;
+    text-align: center;
+}
+.btn-submit{
+    font-size: 14px;
+    font-weight: 550;
+    margin: 16px 94px;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+footer{
+
+}
