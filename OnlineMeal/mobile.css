@@ -1,9 +1,4 @@
 
-
-#nabar{
-flex-direction: column;
-}
-
 #navbar ul li a{
     padding: 0px 20px;
     font-size: 1rem;
@@ -11,6 +6,20 @@ flex-direction: column;
 }
 
 
+#navbar {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    background-color: cyan;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+}
 #home{
 height: 460px;
 }
@@ -27,7 +36,6 @@ height: 460px;
 
 #home p{
     font-size: .8rem;
-    
 }
 
 .btn{
@@ -44,6 +52,7 @@ height: 460px;
 #services{
     flex-direction: column;
 }
+
 #services .box{
 text-align: center;
 height: 100%;
