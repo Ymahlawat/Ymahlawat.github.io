@@ -11,22 +11,18 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; 
     opacity: 1;
-    background-color: cyan;
-
+    background-color:rgb(93, 97, 97);
+    z-index: 1;
+    height: 15%;
 }
+
+.fa{
+  display: none;
+}
+
 
 html{
   scroll-behavior: smooth;
-}
-
-#navbar::before{
-    content: "";
-    background-color:black;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    opacity: .5;
 }
 
 .logo{
@@ -37,6 +33,7 @@ html{
     height: 60px;
     width: 56px;
     margin: 6px 14px;
+    position: relative;
 }
 
 #navbar ul {
@@ -66,22 +63,13 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: url('bg3.jpg') no-repeat center center/cover;
     height: 700px;
     padding: 0px 5%;
 }
 
-#home::before{
-    content: "";
-    background: url('bg3.jpg') no-repeat center center/cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    opacity: .8;
-}
+
+
 
 #home h1{
     color: white;
